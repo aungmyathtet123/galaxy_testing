@@ -1,0 +1,212 @@
+.openbtn {
+  color: #ffff;
+  background-color: #7930f0;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+
+div.openbtn .text {
+  padding-left: 20px;
+}
+
+.save {
+  float: right;
+  cursor: pointer;
+}
+
+div.openbtn .icon {
+  cursor: pointer;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.menu_item ul li {
+  list-style-type: none;
+  padding: 10px 30px;
+}
+
+.menu_item ul li:hover {
+  background-color: aqua;
+}
+
+.menu_item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th,
+.salelist-table th {
+  background-color: #c8c6cc;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.salelist {
+  overflow-x: auto;
+}
+
+.salelist-table {
+  border-collapse: collapse;
+  width: 80%;
+  /* margin-left: 25px; */
+  margin-bottom: 120px;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th,
+.table td,
+.salelist-table th,
+.salelist-table td {
+  padding: 15px;
+}
+
+.table #footer td {
+  border-left-style: hidden !important;
+  background-color: #c8c6cc;
+}
+
+.editicon {
+  padding-left: 20px;
+}
+
+.sale {
+  margin: 50px 25px;
+}
+
+
+#date,
+#dedate {
+  border: none;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+}
+
+#date:focus,
+#dedate:focus {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.saletable,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th,
+.saletable th {
+  background-color: #c8c6cc;
+}
+
+.saletable {
+  border: 0;
+  margin-top: 25px;
+}
+
+.saletable th,
+.saletable td {
+  padding: 15px;
+  border: 0;
+}
+
+#date,
+#invoice,
+#dedate,
+#qty,
+#price,
+#description,
+#code,
+#deinvoice {
+  border: none;
+  border-bottom: 2px solid gray;
+  padding-left: 20px;
+  width: 110px;
+}
+
+#invoice:focus,
+#qty:focus,
+#price:focus,
+#description:focus,
+#code:focus,
+#deinvoice:focus {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  width: 110px;
+}
+
+.add-detail,
+.detail {
+  background-color: #3359f2;
+  padding: 7px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+}
+
+.salelist #footer {
+  background-color: gray;
+  padding: 1px 20px;
+  bottom: 0;
+  position: fixed;
+  /* z-index: 0;  */
+  width: 100%;
+  left: 0;
+  color: white;
+}
+
+
+
+.salelist-table #footer td {
+  border: 0;
+}
+
+.qty {
+  padding-left: 100px;
+}
+
+.amount {
+  padding-left: 40px;
+}
+
+.adddetail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+
+  margin-left: 10px;
+  /* border-radius: 10px; */
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.detailtable tr td {
+  border: 0;
+  /* width: 100px;  */
+  padding: 10px;
+}
